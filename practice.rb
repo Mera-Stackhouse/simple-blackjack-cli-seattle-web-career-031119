@@ -20,4 +20,4 @@ end
 
 puts deal_card
 puts "..."
-puts hit?(10, 'h')
+puts hit?(12, 'h')
