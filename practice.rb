@@ -16,6 +16,8 @@ def hit?(card_total, input)
   end
 end
 
-#puts hit?(15, 'h')
+
 
 puts deal_card
+puts "..."
+puts hit?(10, 'h')
