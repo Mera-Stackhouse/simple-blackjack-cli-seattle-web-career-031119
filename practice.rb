@@ -10,4 +10,4 @@ def hit?(card_total, input)
   end
 end
 
-puts hit?(10, 'h')
+puts hit?(15, 'h')
