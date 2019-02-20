@@ -20,6 +20,5 @@ end
 
 
 
-puts deal_card
-puts "..."
+
 hit?(10, 'h')
