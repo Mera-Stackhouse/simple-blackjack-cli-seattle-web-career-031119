@@ -7,7 +7,9 @@ end
 def hit?(card_total, input)
   if input == 'h'
     new_card = deal_card
+    puts new_card
     new_total = card_total + new_card
+    puts new_total
   elsif input == 's'
     card_total
   else
@@ -20,4 +22,4 @@ end
 
 puts deal_card
 puts "..."
-puts hit?(12, 'h')
+hit?(10, 'h')
