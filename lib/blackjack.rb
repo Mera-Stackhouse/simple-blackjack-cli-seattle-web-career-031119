@@ -39,7 +39,10 @@ end
 def hit?
   # code hit? here
   prompt_user
-  input = gets.chomp
+  input = get_user_input
+  if input == 'h'
+    deal_card
+  end
 end
 
 def invalid_command
@@ -52,5 +55,12 @@ end
 
 def runner
   # code runner here
+  while card_total < 21
+    welcome
+    initial_round
+    hit?
+    display_card_total
+  end
+  end_game
 end
     
