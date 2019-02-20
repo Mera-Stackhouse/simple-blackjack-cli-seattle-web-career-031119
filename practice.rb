@@ -1,3 +1,9 @@
+def deal_card
+  # code #deal_card here
+  rand(1..11)
+end
+
+
 def hit?(card_total, input)
   if input == 'h'
     new_card = 2
