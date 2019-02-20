@@ -55,11 +55,11 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
   while card_total < 21
-    welcome
-    initial_round
     hit?
-    display_card_total
+    display_card_total(card_total)
   end
   end_game
 end
